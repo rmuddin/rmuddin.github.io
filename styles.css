@@ -907,3 +907,10 @@ textarea {
     scroll-behavior: auto !important;
   }
 }
+main {
+  padding-top: 90px;
+}
+
+section {
+  scroll-margin-top: 90px;
+}
