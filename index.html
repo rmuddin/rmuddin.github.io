@@ -1,55 +1,317 @@
 <!DOCTYPE html>
-<img src="Uddin Consultants Web.png" style="width:100%;">
-<html>
+<html lang="en-GB">
 <head>
-<title>Uddin Consultants</title>
-
-<style>
-body{
-font-family: Arial;
-margin:40px;
-background:#f5f5f5;
-}
-
-h1{
-color:#0b2e63;
-}
-
-.section{
-margin-top:30px;
-}
-</style>
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Uddin Consultants provides residential structural engineering for home extensions, loft conversions, steel beams, and building regulations packages.">
+  <title>Uddin Consultants | Residential Structural Engineering</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
 
-<h1>Uddin Consultants</h1>
+  <header class="site-header" id="top">
+    <nav class="nav container" aria-label="Main navigation">
+      <a href="#top" class="brand" aria-label="Uddin Consultants home">Uddin Consultants</a>
 
-<p>Professional structural engineering services for residential projects including extensions, loft conversions and structural design packages.</p>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
 
-<div class="section">
+      <div class="nav-menu" id="nav-menu">
+        <ul class="nav-links">
+          <li><a class="nav-link" href="#services">Services</a></li>
+          <li><a class="nav-link" href="#why-us">Why Choose Us</a></li>
+          <li><a class="nav-link" href="#process">How It Works</a></li>
+          <li><a class="nav-link" href="#about">About</a></li>
+          <li><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+        <a class="btn btn-primary nav-cta" href="#contact">Get a Quote</a>
+      </div>
+    </nav>
+  </header>
 
-<h2>Services</h2>
+  <main id="main-content">
+    <section class="hero section" id="hero">
+      <div class="hero-background" aria-hidden="true">
+        <div class="hero-grid"></div>
+        <div class="blob blob-one"></div>
+        <div class="blob blob-two"></div>
+      </div>
 
-<ul>
-<li>Rear Extension Structural Design</li>
-<li>Loft Conversion Structural Calculations</li>
-<li>Steel Beam Design (RSJ)</li>
-<li>Building Regulations Structural Packages</li>
-<li>Structural Advice for Alterations</li>
+      <div class="container hero-layout">
+        <div class="hero-content reveal">
+          <p class="eyebrow">Residential Structural Engineering Consultancy</p>
+          <h1>Structural Engineering for Home Extensions, Loft Conversions &amp; Alterations</h1>
+          <p class="hero-copy">
+            We help homeowners move from concept to construction with clear structural calculations, practical steel beam design, and building regulations-ready packages.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#contact">Get a Quote</a>
+            <a class="btn btn-secondary" href="#services">Our Services</a>
+          </div>
+          <ul class="hero-trust" aria-label="Key trust points">
+            <li>Fast turnaround</li>
+            <li>Building regulations support</li>
+            <li>Residential specialists</li>
+          </ul>
+        </div>
 
-</ul>
+        <div class="hero-visual reveal" data-delay="140">
+          <article class="blueprint-card" aria-label="Structural package visual">
+            <p class="card-label">Structural Package Preview</p>
+            <h2>Designed for Approval and Buildability</h2>
+            <p>
+              Calculation notes, beam sizing, and practical framing details prepared for building control and site use.
+            </p>
+            <svg class="line-art" viewBox="0 0 520 300" role="img" aria-label="Abstract structural drawing">
+              <defs>
+                <linearGradient id="lineGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stop-color="#4aa9ff"></stop>
+                  <stop offset="100%" stop-color="#32d2c7"></stop>
+                </linearGradient>
+              </defs>
+              <rect x="30" y="35" width="460" height="230" rx="8"></rect>
+              <line x1="30" y1="115" x2="490" y2="115"></line>
+              <line x1="30" y1="195" x2="490" y2="195"></line>
+              <line x1="150" y1="35" x2="150" y2="265"></line>
+              <line x1="260" y1="35" x2="260" y2="265"></line>
+              <line x1="370" y1="35" x2="370" y2="265"></line>
+              <polyline points="70,220 145,150 240,170 320,90 450,130"></polyline>
+            </svg>
+          </article>
+        </div>
+      </div>
+    </section>
 
-</div>
+    <section class="section services" id="services">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="section-kicker">Services</p>
+          <h2>Structural Support for Residential Projects</h2>
+          <p>Focused technical input for homeowners, architects, and builders undertaking domestic alterations and extensions.</p>
+        </div>
 
-<div class="section">
+        <div class="services-grid">
+          <article class="service-card reveal">
+            <div class="icon-wrap" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M3 20h18v1H3v-1Zm1-2V9.8L12 3l8 6.8V18h-5v-5h-6v5H4Z"></path></svg>
+            </div>
+            <h3>Rear Extension Structural Design</h3>
+            <p>Design of supporting elements for single and multi-storey extensions, coordinated for practical construction.</p>
+          </article>
 
-<h2>Contact</h2>
+          <article class="service-card reveal" data-delay="80">
+            <div class="icon-wrap" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M3 21h18v-2H3v2Zm2-4h14l-7-13-7 13Zm7-7.8 2.6 4.8H9.4L12 9.2Z"></path></svg>
+            </div>
+            <h3>Loft Conversion Structural Calculations</h3>
+            <p>Structural calculations for floor strengthening, roof changes, and steel design to support loft conversion layouts.</p>
+          </article>
 
-<p>Email: info@uddinconsultants.com</p>
+          <article class="service-card reveal" data-delay="160">
+            <div class="icon-wrap" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M3 6h18v4H3V6Zm0 8h18v4H3v-4Zm3-6v2h2V8H6Zm0 8v2h2v-2H6Z"></path></svg>
+            </div>
+            <h3>Steel Beam Design (RSJ)</h3>
+            <p>Beam sizing and load paths for wall removals and open-plan spaces, with clear specification for installation.</p>
+          </article>
 
-</div>
+          <article class="service-card reveal">
+            <div class="icon-wrap" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M6 2h9l5 5v15H6V2Zm8 1.5V8h4.5L14 3.5ZM8 11h10v1.5H8V11Zm0 4h10v1.5H8V15Zm0 4h7v1.5H8V19Z"></path></svg>
+            </div>
+            <h3>Building Regulations Structural Packages</h3>
+            <p>Complete calculation packages prepared for building control review, helping keep approvals and build progress on track.</p>
+          </article>
 
+          <article class="service-card reveal" data-delay="80">
+            <div class="icon-wrap" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 10 10A10.01 10.01 0 0 0 12 2Zm1 15h-2v-2h2v2Zm2.07-7.75-.9.92A3.45 3.45 0 0 0 13 13h-2v-.5a4.45 4.45 0 0 1 1.3-3.17l1.24-1.26A1.66 1.66 0 1 0 10.7 6.7L10 7.41 8.59 6l.7-.7a3.66 3.66 0 1 1 5.18 5.17Z"></path></svg>
+            </div>
+            <h3>Structural Advice for Alterations</h3>
+            <p>Practical structural guidance for internal reconfiguration, knock-throughs, and staged renovation works.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section why-us" id="why-us">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="section-kicker">Why Choose Us</p>
+          <h2>Trusted by Homeowners for Clear Technical Guidance</h2>
+        </div>
+
+        <div class="trust-grid">
+          <article class="trust-card reveal">
+            <h3>Residential Structural Specialists</h3>
+            <p>Focused expertise in domestic extensions, lofts, and alterations rather than generic multi-sector engineering.</p>
+          </article>
+          <article class="trust-card reveal" data-delay="70">
+            <h3>Clear, Professional Calculations</h3>
+            <p>Documentation that is easy for building control officers, builders, and design teams to follow.</p>
+          </article>
+          <article class="trust-card reveal" data-delay="140">
+            <h3>Fast Turnaround</h3>
+            <p>Efficient delivery aligned with project timelines, so planning and construction stages keep moving.</p>
+          </article>
+          <article class="trust-card reveal">
+            <h3>Building Regulations Ready</h3>
+            <p>Packages prepared with compliance in mind to support smoother approval and inspection processes.</p>
+          </article>
+          <article class="trust-card reveal" data-delay="70">
+            <h3>Practical Advice for Alterations</h3>
+            <p>Design decisions grounded in real buildability, not just theoretical calculations.</p>
+          </article>
+          <article class="trust-card reveal" data-delay="140">
+            <h3>Friendly, Reliable Service</h3>
+            <p>Straightforward communication from first enquiry through to final structural package issue.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section process" id="process">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="section-kicker">How It Works</p>
+          <h2>A Simple Process from Enquiry to Structural Package</h2>
+        </div>
+
+        <ol class="process-grid">
+          <li class="process-step reveal">
+            <span class="step-number">01</span>
+            <h3>Send Your Drawings or Details</h3>
+            <p>Share your plans, sketches, or scope so we can understand the structural requirements of your project.</p>
+          </li>
+          <li class="process-step reveal" data-delay="80">
+            <span class="step-number">02</span>
+            <h3>Assessment and Calculations</h3>
+            <p>We review the proposal and prepare structural calculations and beam design tailored to the layout.</p>
+          </li>
+          <li class="process-step reveal" data-delay="160">
+            <span class="step-number">03</span>
+            <h3>Receive Your Structural Package</h3>
+            <p>You receive clear, organised documents suitable for building control submission and contractor use.</p>
+          </li>
+          <li class="process-step reveal">
+            <span class="step-number">04</span>
+            <h3>Build with Confidence</h3>
+            <p>Use the package for approvals and construction, supported by practical advice where needed.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="container about-layout">
+        <div class="section-heading reveal">
+          <p class="section-kicker">About Uddin Consultants</p>
+          <h2>Modern Structural Engineering Support for Homeowners</h2>
+          <p>
+            Uddin Consultants is a residential structural engineering consultancy focused on safe, practical design for home projects. We support homeowners with extension calculations, loft conversion structures, steel beam design, and alteration advice, with a clear emphasis on buildability and compliance.
+          </p>
+          <p>
+            Whether you are opening up your ground floor, extending at the rear, or reworking your roof space, our role is to provide dependable structural input that helps your project progress with confidence.
+          </p>
+        </div>
+        <aside class="about-card reveal" data-delay="130" aria-label="Consultancy highlights">
+          <h3>What You Can Expect</h3>
+          <ul>
+            <li>Concise and well-structured calculation packs</li>
+            <li>Responsive communication throughout your project</li>
+            <li>Technical design aligned with residential construction methods</li>
+            <li>Professional service from enquiry to final issue</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="container contact-layout">
+        <div class="contact-copy reveal">
+          <p class="section-kicker">Contact &amp; Quote</p>
+          <h2>Discuss Your Project with Uddin Consultants</h2>
+          <p>
+            Planning an extension, loft conversion, or internal alteration? Send over your details for a prompt quote and practical structural advice.
+          </p>
+          <p class="contact-email">Email: <a href="mailto:info@uddinconsultants.com">info@uddinconsultants.com</a></p>
+        </div>
+
+        <form class="quote-form reveal" data-delay="90" id="quote-form" novalidate>
+          <div class="form-grid">
+            <div class="form-field">
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" autocomplete="name" required>
+              <p class="error-message" id="name-error" aria-live="polite"></p>
+            </div>
+            <div class="form-field">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" autocomplete="email" required>
+              <p class="error-message" id="email-error" aria-live="polite"></p>
+            </div>
+            <div class="form-field">
+              <label for="phone">Phone</label>
+              <input id="phone" name="phone" type="tel" autocomplete="tel">
+              <p class="error-message" id="phone-error" aria-live="polite"></p>
+            </div>
+            <div class="form-field">
+              <label for="service">Service Required</label>
+              <select id="service" name="service" required>
+                <option value="">Please select</option>
+                <option value="Rear Extension Structural Design">Rear Extension Structural Design</option>
+                <option value="Loft Conversion Structural Calculations">Loft Conversion Structural Calculations</option>
+                <option value="Steel Beam Design (RSJ)">Steel Beam Design (RSJ)</option>
+                <option value="Building Regulations Structural Packages">Building Regulations Structural Packages</option>
+                <option value="Structural Advice for Alterations">Structural Advice for Alterations</option>
+              </select>
+              <p class="error-message" id="service-error" aria-live="polite"></p>
+            </div>
+            <div class="form-field full">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" required></textarea>
+              <p class="error-message" id="message-error" aria-live="polite"></p>
+            </div>
+          </div>
+
+          <button class="btn btn-primary form-submit" type="submit">Request Quote</button>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <p class="footer-brand">Uddin Consultants</p>
+        <p>Residential structural engineering consultancy for extensions, loft conversions, and alterations.</p>
+      </div>
+      <div>
+        <p class="footer-title">Quick Links</p>
+        <ul class="footer-links">
+          <li><a href="#services">Services</a></li>
+          <li><a href="#why-us">Why Choose Us</a></li>
+          <li><a href="#process">How It Works</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="footer-title">Contact</p>
+        <p><a href="mailto:info@uddinconsultants.com">info@uddinconsultants.com</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; <span id="year"></span> Uddin Consultants. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
