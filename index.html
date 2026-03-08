@@ -337,7 +337,7 @@ async function handleSubmit(event) {
   });
 
   if (response.ok) {
-    status.innerHTML = "✅ Thank you — we will contact you shortly.";
+    status.innerHTML = "✅ <strong>Thank you.</strong> The form has been submitted — we will contact you shortly.";
     form.reset();
   } else {
     status.innerHTML = "❌ Something went wrong. Please email us directly.";
